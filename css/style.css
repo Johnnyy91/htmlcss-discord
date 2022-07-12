@@ -178,6 +178,18 @@ h3{
 
 .ita{
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ita img{
+    width: 5%;
+}
+
+.ita select{
+    width: 20%;
+    background-color: #23272a;
+    color: white;
+    border: x;
 }
 
 ul#social li{
