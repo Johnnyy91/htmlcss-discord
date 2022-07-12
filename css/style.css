@@ -20,6 +20,7 @@ header{
     background-color: white;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -161,5 +162,47 @@ h4{
 }
 
 .foot-top{
-    flex-direction: column;
+    margin-bottom: 20px;
+    
 }
+
+.ending{
+    width: 40%;
+    padding-top: 30px;
+}
+
+h3{
+    font-size: 30px;
+    color: #3161e0;
+}
+
+.ita{
+    padding-top: 20px;
+}
+
+ul#social li{
+    display: inline;
+}
+
+.little-test{
+    width: 15%;
+    padding-top: 30px;
+}
+
+h4{
+    color: #3161e0;
+    font-size: 14px;
+}
+
+.little-test ul li{
+    color: white;
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.foot-bottom{
+    justify-content: space-between;
+    padding: 40px 0 40px;
+}
+
