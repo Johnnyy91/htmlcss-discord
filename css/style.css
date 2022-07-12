@@ -34,51 +34,84 @@ header{
     color: white;
 }
 
+.menu{
+    word-spacing: 25px;
+    font-size: 12px;
+}
+
 .head2{
-  
     padding: 50px;
     text-align: center;
+    margin-top: 25px;
+    
 }
+
+h1{
+    color: white;
+    padding: 10px;
+}
+
 
 .intro p{
     text-align: center;
+    color: white;
+    padding: 30px;
 }
 
 #headbut{
     padding: 10px;
+    color: black;
+    background-color: white;
+    border: none;
 }
 
 button{
     border-radius: 50%;
     padding: 20px;
+    border: none;
 }
 
+#headbut-two{
+    background-color: #23272a;
+    color: white;
+}
+
+.twobut{
+    padding: 50px;
+}
 
 /*SECTION1*/
 
 .section-nobg{
     background-color: whitesmoke;
+    padding: 50px;
 }
 
 .IMG{
     width: 60%;
-    display: inline-block;
+    align-items: center;
 }
 
 .TEXT{
     width: 40%;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+
 }
 
 /*SECTION2*/
 
 .section-bg{
     background-color: #f6f6f6;
+    padding: 50px;
 }
 
 /*SECTION3*/
 
 .section-nobg{
     background-color: whitesmoke;
+    padding: 50px;
 }
 
 /*SECTION4*/
@@ -86,6 +119,7 @@ button{
 .section-bg{
     background-color: #f6f6f6;
     text-align: center;
+    padding: 50px;
 }
 
 /*FOOTER*/
