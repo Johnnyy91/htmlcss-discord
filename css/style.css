@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
 }
 
 .container{
@@ -16,7 +17,10 @@ body{
 /*HEADER*/
 
 header{
-    background-color: black;
+    background-color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flex{
@@ -24,61 +28,70 @@ header{
 }
 
 .head1{
-    background-color: aqua;
+    background-color: #3161e0;
     justify-content: space-between;
+    padding: 5px;
+    color: white;
 }
 
 .head2{
+  
     padding: 50px;
-    background-color: lightblue;
     text-align: center;
 }
+
+.intro p{
+    text-align: center;
+}
+
+#headbut{
+    padding: 10px;
+}
+
+button{
+    border-radius: 50%;
+    padding: 20px;
+}
+
 
 /*SECTION1*/
 
 .section-nobg{
     background-color: whitesmoke;
-    height: 100px;
 }
 
 .IMG{
-    background-color: green;
     width: 60%;
-    height: 100px;
+    display: inline-block;
 }
 
 .TEXT{
-    background-color: red;
     width: 40%;
-    height: 100px;
 }
 
 /*SECTION2*/
 
 .section-bg{
-    background-color: lightslategray;
-    height: 100px;
+    background-color: #f6f6f6;
 }
 
 /*SECTION3*/
 
 .section-nobg{
     background-color: whitesmoke;
-    height: 100px;
 }
 
 /*SECTION4*/
 
 .section-bg{
-    background-color: lightslategray;
-    height: 100px;
+    background-color: #f6f6f6;
+    text-align: center;
 }
 
 /*FOOTER*/
 
 .foot{
-    background-color: blue;
-    height: 100px;
+    background-color: #23272a;
 }
 
 .foot-top{
