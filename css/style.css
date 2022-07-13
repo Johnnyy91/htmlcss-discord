@@ -115,8 +115,10 @@ button{
 
 }
 
-#waves{
-    background-color: #f6f6f6;
+svg{
+    background-image:#23272a;
+    color:#f6f6f6;
+    display: block;
 }
 
 /*SECTION2*/
